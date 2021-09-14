@@ -16,8 +16,9 @@ export default function Header({})  {
             <h1>
                Dye Vibe
             </h1>
+            <AiOutlineMenu onClick={toggleMenu} className={styles.button} /> 
         </header>
-        <AiOutlineMenu onClick={toggleMenu} className={styles.button} /> 
+    
           <nav className={!isOpen ? styles.nav : styles.navshow}>
           <ul className={styles.lista}>
               <li className={styles.itens}>
