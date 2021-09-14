@@ -5,6 +5,9 @@ import styles from '../styles/Home.module.css'
 import Card from '../src/components/card'
 
 export default function Home() {
+  
+  const image = 'src/image/001.jpg' 
+
   return (
     <>
     <div className={styles.main}>
@@ -14,7 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header image={"aqui"} />
-      <Card />
+      <Card image={image} gridRow={'2/6'} gridColumn={'1/2'}  color={true} />
+      <Card image={image} gridRow={'2/6'} gridColumn={'3/4'} color={true} />
+      <Card image={image} gridRow={'2/6'} gridColumn={'5/6'} color={true} />
+      <Card image={image} gridRow={'7/10'} gridColumn={'1/2'} color={true} />
+      <Card image={image} gridRow={'7/10'} gridColumn={'3/4'} color={true} />
+      <Card image={image} gridRow={'7/10'} gridColumn={'5/6'} color={true} />
     </div>
     </>
     )
