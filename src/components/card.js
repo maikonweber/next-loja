@@ -7,7 +7,7 @@ export default function Card({ color, gridColumn, gridRow, image }) {
         <div className={styles.grid}> 
         <div className={styles.active} >
             <div className="card-header">
-                <Image />
+                
                 <h3>Aqui</h3>
             </div>
             <div className="card-body">
