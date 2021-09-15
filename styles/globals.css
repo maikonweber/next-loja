@@ -50,8 +50,6 @@ a {
     flex-direction: column;
 }
 
-
-
 @keyframes brigthBorder {
     0% {box-shadow: 0px 0px 10px 2px #E2CFEA;}
     25% {box-shadow: 0px 0px 10px 2px #004FFF;}
