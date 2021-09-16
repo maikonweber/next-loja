@@ -1,0 +1,51 @@
+@keyframes brigthBorder {
+    0% {box-shadow: 0px 0px 10px 2px #83d3f2;}
+    25% {box-shadow: 0px 0px 10px 2px #004FFF;}
+    50% {box-shadow: 0px 0px 10px 2px #F433AB;}
+    75% {box-shadow: 0px 0px 10px 2px #21D19F;}
+    100% {box-shadow: 0px 0px 10px 2px #aa39db;}
+  }
+
+  @keyframes brigthColor {
+    0% {color: #7cd1fb;}
+    25% {color: #004FFF;}
+    50% {color: #F433AB;}
+    75% {color: #21D19F;}
+    100% {color: #8f2fb9;}    
+  }
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 60%;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    animation: brigthBorder 4s infinite;
+}
+
+.container h1 {
+    animation: brigthColor 4s infinite;
+}
+
+.container h5 {
+    animation: brigthColor 4s infinite;
+
+}
+
+.container p {
+    animation: brigthColor 4s infinite;
+    align-items: center;
+}

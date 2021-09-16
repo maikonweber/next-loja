@@ -20,7 +20,7 @@
 .active {
     display: flex;
     justify-content: space-between;
-    align-items: column;
+    align-items: row;
     width: 245px;
     height: 345px;
     background-color: #62466b;
