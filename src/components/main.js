@@ -3,12 +3,10 @@ import styles from '../../styles/main.module.css';
 
 
 export default function Main() {
-    
-    
+    // querySelectorAll
+      
 
-  
-
-    return (
+            return (
         <div className={styles.itemsWrapper}>
          <div id='items'  className={styles.item}>
          <div className={styles.items}><img src="https://unsplash.it/1600/400?image=950"/></div>
