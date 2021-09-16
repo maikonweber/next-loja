@@ -36,6 +36,7 @@ export default function Home({list}) {
 
 Home.getInitialProps = async () => {
   const res = await queryProductsMainPage()
+  console.log(res)
   return {
     list: res
   }

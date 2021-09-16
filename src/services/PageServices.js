@@ -3,6 +3,7 @@ export async function queryProductsMainPage() {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' }
     })
+    console.log(response)
     return await response.json();
   }
   
