@@ -30,9 +30,10 @@
 }
 
 body {
-    background: var(--background);
+    background: var(--title);
     font-family: "Inter", sans-serif;
     color: var(--red);
+
 }
 
 
