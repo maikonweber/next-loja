@@ -7,10 +7,10 @@ import Main from '../src/components/main'
 import proto01 from '../OMG/01.jpg'
 
 
-export default function Home() {
+export default function Home({list}) {
   
 
-
+  console.log(list)
   return (
     <>
       <Head>
@@ -33,3 +33,11 @@ export default function Home() {
     </>
     )
 }
+
+Home.getInitialProps = async () => {
+  const res = fetch('https://localhost:3000/api/v1/mainPage')
+  console.log(res)
+  return { list :  res }
+}
+
+
