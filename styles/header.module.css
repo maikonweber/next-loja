@@ -68,6 +68,8 @@
     z-index: 9999;    
   }
 
+
+
 @keyframes brigthColor {
   0% {color: #E2CFEA;}
   25% {color: #004FFF;}
@@ -76,10 +78,5 @@
   100% {color: #E2CFEA;}    
 }
 
-@media screen and (max-width: 428px) { 
-  .header {
-    width: 489px;
-  } 
-}
 
 
