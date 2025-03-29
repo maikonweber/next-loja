@@ -33,8 +33,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
--AWS_SECRET_KEY=Z+5q2CFXKF5mkQXJsdKEFYF67I1cyww1YAirRg8X
-AWS_REGION=sa-east-1
-AWS_BUCKET=loja_app
-AWS_ACCESS_KEY=AKIAZP77W4AJ2CT3PTO7
